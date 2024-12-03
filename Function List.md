@@ -24,10 +24,10 @@
 - Subfunctions:
   - **get_move_distance(self, card: Card) -> Optional[int]**
 
-### execute_action(self) -> None
+### apply_action(self) -> None
 - **Description**: 
   - Execute the chosen action.
-  - Subfunctions: Card specific functions, **set_move_target(self, card: Card, marble: Mable, pos: int)**
+  - Subfunctions: Card specific functions, **set_move_target(self, card: Card, marble: Mable, pos: int)**, **next_turn()**
 
 ## Class: Player
 
